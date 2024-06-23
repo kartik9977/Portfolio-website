@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Chatting Web Application",
+    "desc": "Developed a real-time chatting web application using the MERN stack, Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "image": "chatting",
+    "category": "mern",
+    "links": {
+      "view": "https://instagramernstack.herokuapp.com/",
+      "code": "https://github.com/kartik9977/Chatting-web-application"
+    }
+  },
+  
+
+  {
+    "name": "Portfolio Website",
+    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "image": "portfolio1",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/jigar-sable/Portfolio-Website"
+    }
+  },
+  {
+    "name": "To-do list",
+    "desc": "The To-Do List application is a web-based project using HTML, CSS, and JavaScript.",
+    "image": "todolist",
+    "category": "basicweb",
+    "links": {
+      "view": "https://sigmatask.netlify.app",
+      "code": "https://github.com/kartik9977/To-do-list"
+    }
+  },
+  {
+    "name": "Quiz Web Application",
+    "desc": "Developed a quiz web application using the MERN stack, enabling users to take quizzes and view their scores.",
+    "image":"quiz",
+    "category": "mern",
+    "links": {
+      "view": "https://quiz-web-application.herokuapp.com/",
+      "code": "https://github.com/kartik9977/Quiz-Web-App"
+    }
+  },
+  {
+    "name": "Calulator",
+    "desc": "A basic calculator using HTML, CSS, and JavaScript for performing arithmetic operations with a user-friendly interface.",
+    "image":"calculator",
+    "category": "basicweb",
+    "links": {
+      "view": "https://sigmacalc.netlify.app",
+      "code": "https://github.com/kartik9977/OIBSIP/tree/master/oibsip_task1"
+    }
+  },
+  {
+    "name": "Snake Game",
+    "desc": "A classic Snake game created with JavaScript, where players control a snake to collect food and avoid collisions.",
+    "image":"snake",
+    "category": "basicweb",
+    "links": {
+      "view": "https://snakegameroll.netlify.app/",
+      "code": "https://github.com/kartik9977/Snake_Game"
+    }
+  }
+]
