@@ -42,10 +42,10 @@ $(document).ready(function () {
 
   // <!-- emailjs to mail contact form data -->
   $("#contact-form").submit(function (event) {
-    emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
+    emailjs.init("eH87vYo-Fh2VxwGWQ");
 
     emailjs
-      .sendForm("contact_service", "template_contact", "#contact-form")
+      .sendForm("service_pwp84u4", "template_nc6rbmx", "#contact-form")
       .then(
         function (response) {
           console.log("SUCCESS!", response.status, response.text);
@@ -60,7 +60,19 @@ $(document).ready(function () {
     event.preventDefault();
   });
   // <!-- emailjs to mail contact form data -->
+  // $("#contact-form").submit(function (event) {
+  //   let params = {
+  //     from_name: document.getElementById("name").value,
+  //     from_email: document.getElementById("email").value,
+  //     message: document.getElementById("message").value,
+  //   };
+  //   emailjs
+  //     .send("service_pwp84u4", "template_nc6rbmx", params)
+  //     .then(alert("Form Submitted Successfully"));
+  // });
 });
+
+
 
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
@@ -267,7 +279,7 @@ srtop.reveal(".contact .container", { delay: 400 });
 srtop.reveal(".contact .container .form-group", { delay: 400 });
 
 
-document.addEventListener('contextmenu', function(e) {
-    e.preventDefault();
-});
+// document.addEventListener('contextmenu', function(e) {
+//     e.preventDefault();
+// });
     
