@@ -279,7 +279,7 @@ srtop.reveal(".contact .container", { delay: 400 });
 srtop.reveal(".contact .container .form-group", { delay: 400 });
 
 
-// document.addEventListener('contextmenu', function(e) {
-//     e.preventDefault();
-// });
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+});
     
