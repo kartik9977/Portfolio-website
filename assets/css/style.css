@@ -811,10 +811,6 @@ header .navbar ul li a:hover {
   margin: 2rem;
 }
 
-.certificate .w-distance {
-  gap: 1.5rem;
-}
-
 .certificate .c-distance {
   gap: 5.5rem;
 }

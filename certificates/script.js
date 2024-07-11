@@ -18,7 +18,7 @@ $(document).ready(function () {
 
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
-    document.title = "Projects | Portfolio Jigar Sable";
+    document.title = "Projects | Portfolio Kartikey Sahu";
     $("#favicon").attr("href", "/assets/images/favicon.png");
   } else {
     document.title = "Come Back To Portfolio";
@@ -27,38 +27,38 @@ document.addEventListener("visibilitychange", function () {
 });
 
 // fetch projects start
-function getProjects() {
-  return fetch("projects.json")
+function getCertificates() {
+  return fetch("certificates.json")
     .then((response) => response.json())
     .then((data) => {
       return data;
     });
 }
 
-function showProjects(projects) {
-  let projectsContainer = document.querySelector(".work .box-container");
-  let projectsHTML = "";
-  projects.forEach((project) => {
-    projectsHTML += `
-        <div class="grid-item ${project.category}">
+function showCertificates(certificates) {
+  let certificateContainer = document.querySelector(".work .box-container");
+  let certificateHTML = "";
+  certificates.forEach((certificate) => {
+    certificateHTML += `
+        <div class="grid-item ${certificate.category}">
         <div class="box tilt" style="width: 380px; margin: 1rem">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+      <img draggable="false" src="/assets/images/projects/${certificate.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
-        <h3>${project.name}</h3>
+        <h3>${certificate.name}</h3>
         </div>
         <div class="desc">
-          <p>${project.desc}</p>
+          <p>${certificate.desc}</p>
           <div class="btns">
-            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+            <a href="${certificate.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="${certificate.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
           </div>
         </div>
       </div>
     </div>
     </div>`;
   });
-  projectsContainer.innerHTML = projectsHTML;
+  certificateContainer.innerHTML = certificateHTML;
 
   // vanilla tilt.js
   // VanillaTilt.init(document.querySelectorAll(".tilt"), {
@@ -95,8 +95,8 @@ function showProjects(projects) {
   });
 }
 
-getProjects().then((data) => {
-  showProjects(data);
+getCertificates().then((data) => {
+  showCertificates(data);
 });
 // fetch projects end
 

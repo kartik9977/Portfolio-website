@@ -42,7 +42,7 @@
     }
   },
   {
-    "name": "Calculator",
+    "name": "Calulator",
     "desc": "A basic calculator using HTML, CSS, and JavaScript for performing arithmetic operations with a user-friendly interface.",
     "image":"calculator",
     "category": "basicweb",
