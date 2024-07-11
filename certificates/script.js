@@ -42,18 +42,12 @@ function showCertificates(certificates) {
     certificateHTML += `
         <div class="grid-item ${certificate.category}">
         <div class="box tilt" style="width: 380px; margin: 1rem">
-      <img draggable="false" src="/assets/images/projects/${certificate.image}.png" alt="project" />
+      <img draggable="false" src="/assets/images/certificate/${certificate.image}.png" alt="certificate" />
       <div class="content">
         <div class="tag">
         <h3>${certificate.name}</h3>
         </div>
-        <div class="desc">
-          <p>${certificate.desc}</p>
-          <div class="btns">
-            <a href="${certificate.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${certificate.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
-        </div>
+
       </div>
     </div>
     </div>`;
