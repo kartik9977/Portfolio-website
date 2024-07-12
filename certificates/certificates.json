@@ -38,5 +38,46 @@
     "name": "Software Developement Trainee",
     "image":"c7",
     "category": "basicweb"
+  },
+  {
+    "name": "CCNA Introduction to Network",
+    "image":"CCNA1",
+    "category": "cisco"
+  },
+  {
+    "name": "CCNA Module 2",
+    "image":"CCNA2",
+    "category": "cisco"
+  },
+  {
+    "name": "CCNA Module 3",
+    "image":"CCNA3",
+    "category": "cisco"
+  },
+  {
+    "name": "Introduction of Cyber Security",
+    "image":"CISCO-CS",
+    "category": "cisco"
+  },
+  {
+    "name": "Introduction of Cyber Security",
+    "image":"CISCO-CS1",
+    "category": "cisco"
+  },
+
+  {
+    "name": "Programming Essentials in Python",
+    "image":"CISCO-python",
+    "category": "cisco"
+  },
+  {
+    "name": "Campus Ambassador at Coding Ninjas",
+    "image":"CN-internship",
+    "category": "coding ninjas"
+  },
+  {
+    "name": "Coding World Cup Event - 29 rank",
+    "image":"CN4",
+    "category": "coding ninjas"
   }
 ]
